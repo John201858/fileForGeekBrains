@@ -55,7 +55,7 @@ function palindrome(originalString) {
 //--------------Проверяем совпадают ли строки-----------------------------------
 	var counter = 0;
 	var lengthNewString = newOriginalString.length;
-	for (var i = 0; i <= lengthNewString; i++) {
+	for (var i = 0; i < lengthNewString; i++) {
 	    if (newOriginalString.charAt(i+1) == newReverseString.charAt(i+1)) {
 	        counter++;
 	    }
