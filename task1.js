@@ -61,7 +61,7 @@ function palindrome(originalString) {
 	    }
 	}
 	
-    presencePalindrome = (counter == lengthNewString) ? 'YES' : 'NO';
+    presencePalindrome = (counter == lengthNewString) ? 'YES\n' : 'NO\n';
 //------------------------------------------------------------------------------
     
 	return presencePalindrome;
