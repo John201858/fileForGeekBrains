@@ -12,32 +12,32 @@ function quantityDays(date,month,year) {
     var maxDays = [31, maxDayFebr, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     
     switch (month) {
-        case 'ЯнварЯ': 
+        case 'СЏРЅРІР°СЂСЏ': 
             monthNumber = 0; break;
-        case 'февралЯ': 
+        case 'С„РµРІСЂР°Р»СЏ': 
             monthNumber = 1; break;
-        case 'марта':
+        case 'РјР°СЂС‚Р°':
             monthNumber = 2; break;
-        case 'апрелЯ':
+        case 'Р°РїСЂРµР»СЏ':
             monthNumber = 3; break;
-        case 'маЯ':
+        case 'РјР°СЏ':
             monthNumber = 4; break;
-        case 'июнЯ': 
+        case 'РёСЋРЅСЏ': 
             monthNumber = 5; break;
-        case 'июлЯ':
+        case 'РёСЋР»СЏ':
             monthNumber = 6; break;
-        case 'августа': 
+        case 'Р°РІРіСѓСЃС‚Р°': 
             monthNumber = 7; break;
-        case 'сентЯбрЯ': 
+        case 'СЃРµРЅС‚СЏР±СЂСЏ': 
             monthNumber = 8; break;
-        case 'октЯбрЯ':
+        case 'РѕРєС‚СЏР±СЂСЏ':
             monthNumber = 9; break;
-        case 'ноЯбрЯ':
+        case 'РЅРѕСЏР±СЂСЏ':
             monthNumber = 10; break;
-        case 'декабрЯ':
+        case 'РґРµРєР°Р±СЂСЏ':
             monthNumber = 11; break;
         default: 
-            process.stdout.write('такого месЯца не существует');
+            process.stdout.write('С‚Р°РєРѕРіРѕ РјРµСЃСЏС†Р° РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚');
     } 
     
     var quantity = 0;
